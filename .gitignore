@@ -12,8 +12,6 @@ desktop.ini
 .DS_Store
 
 # saidas de aluno, quando a pasta for usada como projeto
-entregas/
-saidas/
 dados/restrito/
 modelo/
 __pycache__/
