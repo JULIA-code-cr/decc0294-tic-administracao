@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glossário de Teoria da Administração</title>
+<style>
+  :root {
+    --cabecalho: #1f2a37;
+    --cabecalho-texto: #f7f9fc;
+    --zebra: #f2f4f7;
+    --borda: #d7dce3;
+    --texto: #1b2430;
+    --subarea: #2f4f6f;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 40px 24px 64px;
+    background: #ffffff;
+    color: var(--texto);
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  main { max-width: 1000px; margin: 0 auto; }
+  h1 {
+    font-size: 28px;
+    margin: 0 0 6px;
+    letter-spacing: -0.01em;
+  }
+  .subtitulo {
+    margin: 0 0 28px;
+    color: #5b6673;
+    font-size: 15px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+  }
+  caption {
+    caption-side: top;
+    text-align: left;
+    font-size: 14px;
+    color: #5b6673;
+    padding-bottom: 10px;
+  }
+  thead th {
+    background: var(--cabecalho);
+    color: var(--cabecalho-texto);
+    text-align: left;
+    font-weight: 600;
+    padding: 12px 14px;
+    border: 1px solid var(--cabecalho);
+    letter-spacing: 0.01em;
+  }
+  tbody td {
+    padding: 12px 14px;
+    border: 1px solid var(--borda);
+    vertical-align: top;
+  }
+  tbody tr:nth-child(even) { background: var(--zebra); }
+  tbody tr:nth-child(odd) { background: #ffffff; }
+  td.conceito { font-weight: 600; width: 22%; }
+  td.definicao { width: 34%; }
+  td.subarea { width: 18%; color: var(--subarea); font-size: 14px; }
+  td.exemplo { width: 26%; }
+  footer {
+    margin-top: 24px;
+    font-size: 13px;
+    color: #6b7480;
+  }
+  @media print {
+    body { padding: 0; }
+    thead th { background: var(--cabecalho) !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    tbody tr:nth-child(even) { background: var(--zebra) !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Glossário de Teoria da Administração</h1>
+  <p class="subtitulo">Doze conceitos centrais, distribuídos por seis subáreas da disciplina. Cada verbete traz definição, subárea de origem e um exemplo brasileiro.</p>
+
+  <table>
+    <caption>Conceitos centrais por subárea</caption>
+    <thead>
+      <tr>
+        <th scope="col">Conceito</th>
+        <th scope="col">Definição</th>
+        <th scope="col">Subárea</th>
+        <th scope="col">Exemplo brasileiro</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="conceito">Administração científica</td>
+        <td class="definicao">Método que decompõe o trabalho em tarefas elementares, mede o tempo de execução de cada uma e fixa padrões de rendimento. Separa o planejamento da execução e vincula o pagamento à produção.</td>
+        <td class="subarea">Abordagem clássica</td>
+        <td class="exemplo">Uma cooperativa de lacticínios de Minas Gerais cronometra o tempo de pasteurização de cada lote, define a meta diária por operário e paga adicional por produção.</td>
+      </tr>
+      <tr>
+        <td class="conceito">Princípios da administração</td>
+        <td class="definicao">Regras gerais de organização do trabalho administrativo, como divisão do trabalho, autoridade acompanhada de responsabilidade, unidade de direção e controle. Aplicam-se a toda a estrutura da organização.</td>
+        <td class="subarea">Abordagem clássica</td>
+        <td class="exemplo">Uma secretaria municipal de saúde de São Paulo define quem aprova cada etapa e quem responde pela compra e pela assinatura, mantendo um único superior por unidade.</td>
+      </tr>
+      <tr>
+        <td class="conceito">Relações humanas</td>
+        <td class="definicao">Abordagem que entende a organização como um grupo social e passa a estudar as relações entre supervisores e trabalhadores, seus conflitos, motivações e necessidades.</td>
+        <td class="subarea">Abordagem das relações humanas</td>
+        <td class="exemplo">Um call center de Recife cria um comitê com representantes da equipe e da supervisão para discutir a rotação de turnos.</td>
+      </tr>
+      <tr>
+        <td class="conceito">Efeito Hawthorne</td>
+        <td class="definicao">Aumento do rendimento de trabalhadores quando eles sabem que estão sendo observados, independentemente de mudanças na iluminação, no tempo de descanso ou na recompensa.</td>
+        <td class="subarea">Abordagem das relações humanas</td>
+        <td class="exemplo">Em uma oficina de manutenção de equipamentos de saúde em Minas Gerais, a equipe produz mais ao saber que o encarregado observa o trabalho.</td>
+      </tr>
+      <tr>
+        <td class="conceito">Teoria X e Teoria Y</td>
+        <td class="definicao">Duas visões opostas sobre o trabalhador: a que o vê como preguiçoso e precisa ser controlado por vigilância, e a que o vê como responsável e capaz de se organizar sozinho. O estilo de liderança adotado tende a seguir a premissa escolhida.</td>
+        <td class="subarea">Abordagem comportamental</td>
+        <td class="exemplo">Uma loja de material de construção em Curitiba deixa a equipe definir a ordem interna de atendimento, enquanto a matriz adota vigilância por relatório.</td>
+      </tr>
+      <tr>
+        <td class="conceito">Liderança situacional</td>
+        <td class="definicao">Ideia de que não existe um estilo ideal de liderança: a conduta do líder se ajusta ao nível de competência e de comprometimento de quem é liderado. Tarefas rotineiras e tarefas complexas exigem condutas diferentes.</td>
+        <td class="subarea">Abordagem comportamental</td>
+        <td class="exemplo">Em um hospital de Salvador, o mesmo supervisor delega tarefas novas a enfermeiros experientes e acompanha de perto os recém-contratados.</td>
+      </tr>
+      <tr>
+        <td class="conceito">Teoria de sistemas</td>
+        <td class="definicao">Leitura da organização como um conjunto de partes interdependentes que recebe recursos do ambiente, transforma esses recursos e devolve resultados, mantendo uma fronteira definida em relação ao meio externo.</td>
+        <td class="subarea">Abordagem sistêmica</td>
+        <td class="exemplo">Uma rede de padarias de Brasília compra insumo, passa por fornada, expedição e venda no varejo; a falha em qualquer etapa afeta todo o conjunto.</td>
+      </tr>
+      <tr>
+        <td class="conceito">Retroalimentação</td>
+        <td class="definicao">Retorno de informação sobre o desempenho de um processo, usado para corrigi-lo e manter o equilíbrio do sistema. Pode levar à redução da atividade quando o retorno é negativo e ao reforço quando é positivo.</td>
+        <td class="subarea">Abordagem sistêmica</td>
+        <td class="exemplo">Uma transportadora de carga do Ceará acompanha semanalmente o índice de avarias e, quando ele sobe, altera a etapa de embalagem.</td>
+      </tr>
+      <tr>
+        <td class="conceito">Cultura organizacional</td>
+        <td class="definicao">Conjunto de valores, crenças e costumes compartilhados que orienta o comportamento de quem pertence à organização. Funciona como herança da história da empresa e define o que é aceitável e o que não é.</td>
+        <td class="subarea">Abordagem moderna</td>
+        <td class="exemplo">Uma empresa de saneamento de Campinas publica em mural os valores de segurança e disciplina, e a equipe cobra do colega o cumprimento do procedimento.</td>
+      </tr>
+      <tr>
+        <td class="conceito">Administração por objetivos</td>
+        <td class="definicao">Sistema de gestão no qual a área e a equipe definem previamente o que devem alcançar e depois avaliam o alcance. O desempenho é medido contra as metas que o próprio grupo estabeleceu.</td>
+        <td class="subarea">Abordagem moderna</td>
+        <td class="exemplo">Uma secretaria de educação do Ceará combina com cada escola a meta de aprovação do ano, e a equipe de gestores decide o plano de apoio necessário.</td>
+      </tr>
+      <tr>
+        <td class="conceito">Ralienação do trabalho</td>
+        <td class="definicao">Situação em que o trabalhador fica separado do produto de seu trabalho, do processo de decisão e do resultado coletivo. A atividade serve apenas como meio de sustento, sem reconhecimento ou sentido.</td>
+        <td class="subarea">Abordagem crítica</td>
+        <td class="exemplo">Em um call center de telecomunicações de São Paulo, o atendente repete o mesmo roteiro por dezenas de horas, sem poder alterar o procedimento nem participar da meta do setor.</td>
+      </tr>
+      <tr>
+        <td class="conceito">Controle pelo comportamento</td>
+        <td class="definicao">Uso de vigilância, punição e recompensa sistemática para moldar a conduta individual ao padrão desejado pela direção. O foco recai sobre a ação observável e não sobre o resultado entregue.</td>
+        <td class="subarea">Abordagem crítica</td>
+        <td class="exemplo">Uma rede varejista de Goiás acompanha o ritmo das vendas por relatório diário e associa o prêmio ao alcance da meta.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>As referências bibliográficas de cada conceito serão acrescentadas à parte, após a conferência do conteúdo.</footer>
+</main>
+</body>
+</html>
